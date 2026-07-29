@@ -195,6 +195,13 @@ function TopPage({ onNav }: { onNav: (s: Section) => void }) {
         </div>
         <div className="w-12 h-0.5 mx-auto mb-8" style={{ background: "#D24655" }} />
         <div className="sm:hidden space-y-5 text-sm leading-8 text-foreground text-left max-w-2xl mx-auto" style={{ fontFamily: "'Hiragino Kaku Gothic ProN', 'Hiragino Sans', 'BIZ UDPGothic', Meiryo, sans-serif" }}>
+          <p>滋賀県出身。大阪コミュニケーションアート専門学校 CG・映像クリエーター専攻卒業。</p>
+          <p>動画編集を軸に、撮影・グラフィックデザイン・SNSマーケティングなど、クリエイティブを横断して幅広い実務経験を積んできました。</p>
+          <p>テレビ局、広告代理店、個人事業主、企業とさまざまな環境で、企画・制作・運用まで一貫して担当しています。</p>
+          <p>「誰に、何を、どのように伝えるか」を大切にし、目的に応じた最適なクリエイティブを形にすることを心掛けています。</p>
+          <p>これからも領域にとらわれず、新しいことに挑戦し続けるクリエイターを目指しています。</p>
+        </div>
+        <div className="hidden sm:block space-y-4 text-base leading-8 text-foreground text-center max-w-2xl mx-auto" style={{ fontFamily: "'Hiragino Kaku Gothic ProN', 'Hiragino Sans', 'BIZ UDPGothic', Meiryo, sans-serif" }}>
           <p>滋賀県出身。大阪コミュニケーションアート専門学校 CG･映像クリエーター専攻を卒業後、映像制作を軸に、撮影・編集・グラフィックデザイン・SNS運用など、幅広いクリエイティブ領域に携わってきました。</p>
           <p>学生時代から映像表現やデザイン制作に取り組み、相手に伝わる表現とは何かを考えながら制作スキルを磨いてきました。卒業後はテレビ局での映像制作、広告代理店での動画広告制作、</p>
           <p>個人事業主としての動画制作、そして現在は企業にて動画制作・撮影・デザイン・SNS運用まで担当し、企画から制作、発信後の改善まで一貫して経験してきました。</p>
@@ -204,13 +211,6 @@ function TopPage({ onNav }: { onNav: (s: Section) => void }) {
           <p>分野や職種の枠にとらわれず、必要な知識や技術を積極的に吸収しながら、目的達成につながるクリエイティブを提案・実行できます。</p>
           <p>これまで培った映像・デザイン・マーケティングの経験を活かし、今後も「誰に、何を、どのように届けるか」を大切にしながら、</p>
           <p>ユーザーや企業の課題解決につながるクリエイターとして成長していきたいと考えています。</p>
-        </div>
-        <div className="hidden sm:block space-y-4 text-base leading-8 text-foreground text-center max-w-2xl mx-auto" style={{ fontFamily: "'Hiragino Kaku Gothic ProN', 'Hiragino Sans', 'BIZ UDPGothic', Meiryo, sans-serif" }}>
-          <p>滋賀出身。大阪コミュニケーションアート専門学校 CG･映像クリエーター専攻卒業。動画編集を軸に、撮影・グラフィックデザイン・SNSマーケティングなど、クリエイティブ領域を幅広く経験してきました。</p>
-          <p>テレビ局での映像制作、広告代理店での動画広告制作、個人事業主としての動画制作、そして現在は企業で動画制作・撮影・デザイン・SNS運用まで担当しており、企画から制作、運用まで一貫して携わってきました。</p>
-          <p>私の強みは、特定の分野だけにとらわれず、案件や目的に応じて必要なクリエイティブを柔軟に形にできることです。動画だけ、デザインだけではなく、それぞれを組み合わせながら、より良いアウトプットを追求しています。</p>
-          <p>また、制作することだけでなく、「誰に、何を、どのように伝えるか」を常に意識し、トレンドやユーザー視点を取り入れたクリエイティブを心掛けています。</p>
-          <p>これまで培ってきた経験を活かしながら、「これもできる」を少しずつ増やし、動画・デザイン・撮影など分野の枠にとらわれず、課題解決につながるクリエイティブを生み出せるクリエイターでありたいと考えています。</p>
         </div>
         <div className="flex gap-3 mt-10 flex-wrap justify-center">
           <button onClick={() => onNav("portfolio")} className="px-6 py-3 bg-primary text-white text-sm font-medium hover:bg-primary/90 transition-colors" style={{ fontFamily: "'DM Sans', sans-serif" }}>
