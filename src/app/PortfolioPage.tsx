@@ -15,8 +15,11 @@ import muze202 from "../imports/muze-2_02.jpg";
 import muze203 from "../imports/muze-2_03.jpg";
 import muze204 from "../imports/muze-2_04.jpg";
 import muze205 from "../imports/muze-2_05.jpg";
-import granPamphlet1 from "../imports/Gran________01.png";
-import granPamphlet2 from "../imports/Gran________02.png";
+import granPamphlet1 from "../imports/Gran-1-01.jpg";
+import granPamphlet2 from "../imports/Gran-1-02.jpg";
+import granPamphlet3 from "../imports/Gran-1-03.jpg";
+import granPamphlet4 from "../imports/Gran-1-04.jpg";
+import granPamphlet5 from "../imports/Gran-1-05.jpg";
 import nineSlide1 from "../imports/TEXT-1-01.png";
 import nineSlide2 from "../imports/TEXT-1-02.png";
 import nineSlide3 from "../imports/TEXT-1-03.png";
@@ -80,7 +83,7 @@ const MOVIES: MovieItem[] = [
 const DESIGNS: DesignItem[] = [
   { id: "d8", type: "image", title: "オリジナルペットボトル ラベルデザイン", year: "2026", category: "NINE JAPAN 株式会社", image: bottleLabel, description: "500mlペットボトル向けのオリジナルラベルデザインを入稿データまで一貫制作。\nNINE JAPANブランドの世界観を凝縮し、印刷仕様（CMYK・白版）に対応したデータを完全内製で納品。" },
   { id: "d9", type: "image", title: "NR NINE 梱包用 段ボールデザイン", year: "2026", category: "NINE JAPAN 株式会社", image: cardboardDesign, description: "NR NINE備品の梱包用段ボールのパッケージデザインを制作。\nブランドカラーの黒×ゴールドでラグジュアリーな世界観を表現し、展開図の入稿データまで一貫対応。" },
-  { id: "d6", type: "multi-image", title: "Gran nine パンフレット", year: "2026", category: "NINE JAPAN 株式会社", image: granPamphlet1, images: [granPamphlet1, granPamphlet2], description: "高級エステティックサロン「Gran nine」の開業向け紙媒体を企画・デザイン・入稿まで一貫制作。\nブランドの世界観を紙面で体現し、顧客獲得に直結するビジュアルを実現。" },
+  { id: "d6", type: "multi-image", title: "Gran nine パンフレット", year: "2026", category: "NINE JAPAN 株式会社", image: granPamphlet1, images: [granPamphlet1, granPamphlet2, granPamphlet3, granPamphlet4, granPamphlet5], description: "高級エステティックサロン「Gran nine」の開業向け紙媒体を企画・デザイン・入稿まで一貫制作。\nブランドの世界観を紙面で体現し、顧客獲得に直結するビジュアルを実現。" },
   { id: "d7", type: "multi-image", title: "NINE Esthetic TEXT", year: "2025", category: "NINE JAPAN 株式会社", image: nineSlide1, images: [nineSlide1, nineSlide2, nineSlide3, nineSlide4], description: "医学的根拠に基づく施術効果をイラストで図解し、入稿データまで一貫制作した顧客説明冊子。\n専門情報の視覚化と印刷入稿対応の両立で、サロンの信頼性向上に貢献。" },
   { id: "d2b", type: "multi-image", title: "ミュゼ TikTok用記事デザイン（お正月ver）", year: "2024", category: "株式会社ENJOY", image: muze101, images: [muze101, muze102, muze103, muze104, muze105, muze106], description: "大手美容サロン「ミュゼプラチナム」のTikTok広告用記事を季節特化デザインで制作。\n縦型フォーマットに最適化し、スクロール停止率の向上を意識したレイアウト設計。" },
   { id: "d2c", type: "multi-image", title: "ミュゼ TikTok用記事デザイン（通常ver）", year: "2024", category: "株式会社ENJOY", image: muze201, images: [muze201, muze202, muze203, muze204, muze205], description: "「ミュゼプラチナム」の定常運用TikTok広告記事デザイン。\nCV誘導を目的とした情報の優先順位設計と視線誘導を徹底し、コンバージョン最大化を追求。" },
