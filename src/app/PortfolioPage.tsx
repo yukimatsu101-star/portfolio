@@ -256,7 +256,7 @@ export default function PortfolioPage() {
   const [category, setCategory] = useState<PortfolioCategory>("Movie");
   const categories: { id: PortfolioCategory; label: string; count: number; icon: React.ReactNode }[] = [
     { id: "Movie", label: "Movie", count: 17, icon: <Film className="w-4 h-4" /> },
-    { id: "Design", label: "Design", count: 9, icon: <Palette className="w-4 h-4" /> },
+    { id: "Design", label: "Design", count: 11, icon: <Palette className="w-4 h-4" /> },
     { id: "Photo", label: "Photo", count: 5, icon: <Camera className="w-4 h-4" /> },
     { id: "CG", label: "CG", count: 4, icon: <Layers className="w-4 h-4" /> },
   ];
