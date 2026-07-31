@@ -22,6 +22,8 @@ import nineSlide2 from "../imports/TEXT-1-02.png";
 import nineSlide3 from "../imports/TEXT-1-03.png";
 import nineSlide4 from "../imports/TEXT-1-04.png";
 import granSyo01 from "../imports/Gran-syo-01.jpg";
+import bottleLabel from "../imports/500ml________MTI_OL_NINEJAPAN____01.jpg";
+import cardboardDesign from "../imports/NINEJAPAN_20260721________-02.jpg";
 import productPhoto from "../imports/IMG_2294______2__.jpg";
 import bustPhoto from "../imports/bust-01.jpg";
 import recruitPhoto1 from "../imports/_____-01.jpg";
@@ -72,6 +74,8 @@ const MOVIES: MovieItem[] = [
 ];
 
 const DESIGNS: DesignItem[] = [
+  { id: "d8", type: "image", title: "オリジナルペットボトル ラベルデザイン", year: "2026", category: "NINE JAPAN 株式会社", image: bottleLabel, description: "500mlペットボトル向けのオリジナルラベルデザインを入稿データまで一貫制作。\nNINE JAPANブランドの世界観を凝縮し、印刷仕様（CMYK・白版）に対応したデータを完全内製で納品。" },
+  { id: "d9", type: "image", title: "NR NINE 梱包用 段ボールデザイン", year: "2026", category: "NINE JAPAN 株式会社", image: cardboardDesign, description: "NR NINE備品の梱包用段ボールのパッケージデザインを制作。\nブランドカラーの黒×ゴールドでラグジュアリーな世界観を表現し、展開図の入稿データまで一貫対応。" },
   { id: "d6", type: "multi-image", title: "Gran nine パンフレット", year: "2026", category: "NINE JAPAN 株式会社", image: granPamphlet1, images: [granPamphlet1, granPamphlet2], description: "高級エステティックサロン「Gran nine」の開業向け紙媒体を企画・デザイン・入稿まで一貫制作。\nブランドの世界観を紙面で体現し、顧客獲得に直結するビジュアルを実現。" },
   { id: "d7", type: "multi-image", title: "NINE Esthetic TEXT", year: "2025", category: "NINE JAPAN 株式会社", image: nineSlide1, images: [nineSlide1, nineSlide2, nineSlide3, nineSlide4], description: "医学的根拠に基づく施術効果をイラストで図解し、入稿データまで一貫制作した顧客説明冊子。\n専門情報の視覚化と印刷入稿対応の両立で、サロンの信頼性向上に貢献。" },
   { id: "d2b", type: "multi-image", title: "ミュゼ TikTok用記事デザイン（お正月ver）", year: "2024", category: "株式会社ENJOY", image: muze101, images: [muze101, muze102, muze103, muze104, muze105, muze106], description: "大手美容サロン「ミュゼプラチナム」のTikTok広告用記事を季節特化デザインで制作。\n縦型フォーマットに最適化し、スクロール停止率の向上を意識したレイアウト設計。" },
@@ -82,6 +86,7 @@ const DESIGNS: DesignItem[] = [
   { id: "d5", type: "video", title: "drestrip ロゴアニメーション", year: "2022", category: "株式会社ENJOY", videoUrl: "https://www.youtube.com/embed/RLf5-2YHazI", image: "https://img.youtube.com/vi/RLf5-2YHazI/maxresdefault.jpg", description: "旅行予約サービスのブランドロゴアニメーションを受託制作。\nサービスの世界観「旅への期待感」をスムーズなモーションで視覚化。" },
   { id: "d4", type: "video", title: "起立性調節障害改善協会", year: "2023", category: "個人事業主", videoUrl: "https://www.youtube.com/embed/KH3lYHepApo", image: "https://img.youtube.com/vi/KH3lYHepApo/maxresdefault.jpg", description: "医療系NPO法人の認知拡大を目的とした紹介映像を受託。\n疾患の正しい理解を促すため、専門情報をわかりやすいビジュアルへ落とし込む情報設計を担当。" },
 ];
+
 
 const PHOTOS: PhotoItem[] = [
   { id: "p2", title: "Gran nine 商品撮影-1", image: granSyo01, year: "2025", category: "NINE JAPAN株式会社", location: "高級エステサロンの販促用商品撮影を外注ゼロで内製化。\nライティング設計・背景・スタイリングを自己完結し、ブランドの高級感を表現。" },
