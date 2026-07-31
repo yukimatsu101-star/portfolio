@@ -95,7 +95,7 @@ const DESIGNS: DesignItem[] = [
 const PHOTOS: PhotoItem[] = [
   { id: "p11", title: "エステティック通信 掲載記事（2026年1月号）", image: magazine2026Jan, year: "2026", category: "NINE JAPAN株式会社", location: "業界専門誌「エステティック通信」2026年1月号に掲載されたNINE CAMPの特集記事。\n誌面内で使用されているサロン内・セミナー風景の写真は、自身のミラーレス一眼カメラで撮影したものが採用されており、商業誌レベルの撮影クオリティが認められた実績。" },
   { id: "p12", title: "エステティック通信 掲載記事（2026年4月号）", image: magazine2026Apr, year: "2026", category: "NINE JAPAN株式会社", location: "業界専門誌「エステティック通信」2026年4月号、商材導入成功サロン特集に掲載。\n誌面を飾るGran Nineシリーズの商品写真は、自身が企画・ライティング設計・撮影・レタッチまで一貫して手がけたカットが商業誌に採用された実績。" },
-  { id: "p13", title: "エステティック通信 掲載記事（2026年5月号）", image: magazine2026May, year: "2026", category: "NINE JAPAN株式会社", location: "業界専門誌「エステティック通信」2026年5月号、NINE JAPANの特集記事に掲載。\nNINE CAMP・NR NINE・Gran nineを紹介する見開き特集で、セミナー・施術・商品の各シーンで使用された写真は自身の一眼レフカメラによる撮影が採用。撮影から商業誌掲載まで一貫して関与した実績。" },
+  { id: "p13", title: "エステティック通信 掲載記事（2026年5月号）", image: magazine2026May, year: "2026", category: "NINE JAPAN株式会社", location: "業界専門誌「エステティック通信」2026年5月号、NINE JAPANの特集記事に掲載。\nNINE CAMP・NR NINE・Gran nineを紹介する見開き特集で、セミナー・施術・商品の各シーンで使用された写真は自身のミラーレス一眼カメラによる撮影が採用。撮影から商業誌掲載まで一貫して関与した実績。" },
   { id: "p2", title: "Gran nine 商品撮影-1", image: granSyo01, year: "2025", category: "NINE JAPAN株式会社", location: "高級エステサロンの販促用商品撮影を外注ゼロで内製化。\nライティング設計・背景・スタイリングを自己完結し、ブランドの高級感を表現。" },
   { id: "p4", title: "Gran nine 商品撮影-2", image: productPhoto, year: "2025", category: "NINE JAPAN株式会社", location: "同サロンの商品ラインナップ追加撮影。\n統一されたビジュアルトーンを維持しながら商品ごとの魅力を引き出す構図設計を実施。" },
   { id: "p6", title: "Infinity Breast Cream 商品撮影", image: bustPhoto, year: "2025", category: "NINE JAPAN株式会社", location: "美容商品の販促撮影をプロカメラマン不要で内製対応。\nプレミアム価格帯に見合う高品質なビジュアルをコスト削減しながら実現。" },
